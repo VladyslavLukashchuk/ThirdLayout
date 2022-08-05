@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Third Layout</title>
+    <link rel="stylesheet" href="style.css">
+    
+<link rel="stylesheet" href="slider.css">
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+</head>
+<body>
+    
+    <div class="wrapper">
+        
+        
+            <header>
+                <div class="container">
+                    <div class="header">
+                <div class="header_logo">
+                    <img src="img/logo.png" alt="logo">
+                </div>
+                <div class="header_numbers">
+                   <p>+7(499) 777-77-77</p><br>
+                   <p>+7(499) 777-77-77</p><br>
+                 <a href="#popup" class="callback_button"> <p class="header_button">Обратная связь</p> </a> 
+                </div>
+            </div>
+        </div>
+            </header>
+            
+            <div class="menu">
+                <div class="container">
+                    <div class="menu_items">
+                        <ul>
+                            <li>Главная</li>
+                            <li>Каталог</li>
+                            <li>Доставка и оплата</li>
+                            <li>Прайс-лист</li>
+                            <li>Контакты</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+             <!-- Slideshow container -->
+
+                 <div class="slider_container">
+             <div class="slideshow-container">
+
+   <!-- Full-width images with number and caption text -->
+   <div class="mySlides fade" style="display: block;">
+    
+    <img src="img/slider.png" style="width:67%">
+    
+  </div>
+
+  <div class="mySlides fade" style="display: none;">
+    
+    <img src="img/slider2.png" style="width:67%">
+    
+  </div>
+
+  <div class="mySlides fade" style="display: none;">
+   
+    <img src="img/slide3.png" style="width:67%">
+    
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a id="next" class="next" onclick="plusSlides(1)">❯</a>
+</div>
+<br>
+<div class="test">
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot active" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+<br>
+</div>
+  
+ 
+</div>
+            <div class="container">
+                <div class="main_content">
+                <div class="main_content_left_side">
+                    <div class="upper_catalog_list">
+                        <span class="first_catalog_list">Главная</span>  /
+                        <span class="first_catalog_list">  Каталог</span>  /
+                        <span>Бытовая техника</span>
+                    </div>
+                    <div class="categories_list">
+                        <ul>
+                            <li>Автомобили</li>
+                            <li>Бытовая техника</li>
+                            <li class="shown_items"><a href="">Мобильная техника</a>
+                                <ul class="hidden_li">
+                                    <li>Микроволновки</li>
+                                    <li>Холодильники</li>
+                                    <li>Посудомоечные машины</li>
+                                    <li>Чайники</li>
+                                </ul>
+                            </li>
+                            <li>Компьютеры</li>
+                            <li>Одежда</li>
+                            <li>Недвижимость</li>
+                        </ul>
+                        
+                    </div>
+                    <div class="main_content_left_side_photo">
+                        <img src="img/EXCEL.png" alt="excel">
+                        <p>Прайс-лист</p>
+                    </div>
+                </div>
+                <div class="main_content_right_side">
+                    <div class="all_sale_items">
+                    <div class="sale_item">
+                        <div class="items_inside">
+                        <div class="sale_item_photo">
+                         <img src="img/saleItemPhoto.png" alt="chainik">
+                        </div>
+                        <div class="sale_item_description">
+                        <a href=""><p>Самый клевый чайник, который надо купить!</p> </a>
+                        </div>
+                        <div class="sale_item_footer">
+                        <div class="sale_item_price">1 900 р.</div>
+                       <div class="sale_item_bottom_img"> <a href=""><img src="img/addtobasket_min.png" alt="korzina"> </a> </div> 
+                    </div>
+                    </div>
+                    </div>
+                    <div class="sale_item">
+                        <div class="items_inside">
+                        <div class="sale_item_photo">
+                         <img src="img/saleItemPhoto.png" alt="chainik">
+                        </div>
+                        <div class="sale_item_description">
+                      <a href=""> <p>Самый клевый чайник, который надо купить!</p> </a> 
+                        </div>
+                        <div class="sale_item_footer">
+                        <div class="sale_item_price">1 900 р.</div>
+                       <div class="sale_item_bottom_img"> <a href=""><img src="img/addtobasket_min.png" alt="korzina"> </a></div> 
+                    </div>
+                    </div>
+                    </div>
+                    <div class="sale_item">
+                        <div class="items_inside">
+                        <div class="sale_item_photo">
+                         <img src="img/saleItemPhoto.png" alt="chainik">
+                        </div>
+                        <div class="sale_item_description">
+                            <a href="">   <p>Самый клевый чайник, который надо купить!</p> </a>
+                        </div>
+                        <div class="sale_item_footer">
+                        <div class="sale_item_price">1 900 р.</div>
+                       <div class="sale_item_bottom_img"> <a href=""><img src="img/addtobasket_min.png" alt="korzina"></a> </div> 
+                    </div>
+                    </div>
+                    </div>
+                    <div class="sale_item">
+                        <div class="items_inside">
+                        <div class="sale_item_photo">
+                         <img src="img/saleItemPhoto.png" alt="chainik">
+                        </div>
+                        <div class="sale_item_description">
+                       <a href=""> <p>Самый клевый чайник, который надо купить!</p> </a>
+                        </div>
+                        <div class="sale_item_footer">
+                        <div class="sale_item_price">1 900 р.</div>
+                       <div class="sale_item_bottom_img"> <a href=""><img src="img/addtobasket_min.png" alt="korzina"> </a></div> 
+                    </div>
+                    </div>
+                    </div>
+                    <div class="sale_item">
+                        <div class="items_inside">
+                        <div class="sale_item_photo">
+                         <img src="img/saleItemPhoto.png" alt="chainik">
+                        </div>
+                        <div class="sale_item_description">
+                      <a href=""> <p>Самый клевый чайник, который надо купить!</p> </a> 
+                        </div>
+                        <div class="sale_item_footer">
+                        <div class="sale_item_price">1 900 р.</div>
+                       <div class="sale_item_bottom_img"> <a href=""><img src="img/addtobasket_min.png" alt="korzina"> </a></div> 
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="main_content_right_side_pages">
+                        <div class="numbers">1</div>
+                        <div class="numbers">2</div>
+                        <div class="numbers special">3</div>
+                        <div class="numbers">4</div>
+                        <div class="numbers">5</div>
+                        <div class="numbers">6</div>
+                        <div class="numbers">7</div>
+                        
+                   </div>
+                   <hr>
+                   <div class="main_content_right_side_texts">
+                    <div class="first_text">
+                    <p>Компания «Пиксель Плюс» существует более 6 лет, за это время мы принимали участие в разработке более чем 700 сайтов, поэтому можем уверенно называть себя профессионалами. На данный момент наш коллектив состоит из более чем 30 сотрудников работающих в двух офисах в Москве и Зеленограде.характерные для этого жанра мотивы: неразделённой любви, ухода молодости, угасания души. </p>
+                    </div>
+                    <div class="second_text">
+                      <p>Одним из основных направлений работ нашей компании является поисковое продвижение сайтов, на данной момент мы работаем с более чем 150 постоянными клиентами по более чем 11 000 поисковым запросам. При этом в работе основной акцент мы делаем на качестве работ, а так же применяем собственные уникальные разработки в области SEO продвижения. На данный момент отдел SEO состоит из 9 человек под руководством ведущего специалиста, преимущественно работающих в нашем московском офисе.</p>
+                    </div>
+                   </div>
+                </div>
+            </div>
+
+          </div>
+        </div>
+          <footer>
+            <div class="container">
+                <div class="all_footer_items">
+                    <div class="left_footer_items">&copy; 2012-2013 ЗАО «Компания» <br> info@name.ru</div>
+                   <div class="center_footer_items">
+                    <ul>
+                        <li>Главная</li>
+                        <li>Каталог</li>
+                        <li>Доставка и оплата</li>
+                        <li>Прайс-лист</li>
+                        <li>Контакты</li>
+                    </ul>
+                   </div>
+                   <div class="right_footer_items">
+                    <img src="img/companyLogo.png" alt="company logo">
+                     <div class="right_footer_items_text"><span>Разработка сайта</span> - <br> компания "Пиксель Плюс"</div>
+                   </div>
+                </div>
+            </div>
+        
+          </footer>
+        
+         <div id="popup" class="popup">
+            <div class="popup_body">
+                
+                <div class="popup_style">
+                    <div class="toclose">  <a href="#" class="close_button">X</a> </div>
+                <div class="popup_title">ОБРАТНАЯ СВЯЗЬ</div>
+             <div class="input_fields"> <label class="label" for="Your name">Ваше имя *</label> <input type="text" name="Your name" class="first_input"> </div> 
+             <div class="input_fields"> <label class="label" for="number">Телефон *</label><input type="tel" name="number" class="first_input"> </div> 
+                <div class="input_fields"> <label class="label" for="email">Email *</label> <input type="email" name="email" id="email" class="first_input" placeholder="Поле обязательно для заполнения"> </div> 
+                <div class="input_fields"> <label class="label" for="message">Сообщение</label><textarea name="message" id="message"> </textarea> </div> 
+                  <button type="submit" class="submit_button">ОТПРАВИТЬ</button>
+            </div>
+            </div>
+         </div>
+        <script src="slider.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</body>
+</html>
